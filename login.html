@@ -54,18 +54,15 @@
 
 
   <!-- ===============>> light&dark switch start here <<================= -->
-  <div class="lightdark-switch">
+  <div class="lightdark-switch d-none">
     <span class="dark-btn" id="btnSwitch"><img src="assets/images/icon/moon.svg" alt="light-dark-switchbtn"
         class="swtich-icon"></span>
   </div>
   <!-- ===============>> light&dark switch start here <<================= -->
 
 
-
-
-
   <!-- ===============>> Header section start here <<================= -->
-  <header class="header-section bg-color-3">
+  <header class="header-section bg-color-3 d-none">
     <div class="header-bottom">
       <div class="container">
         <div class="header-wrapper">
@@ -77,25 +74,56 @@
           <div class="menu-area">
             <ul class="menu menu--style1">
               <li>
-                <a href="inicio.html">Inicio</a>
-                
+                <a href="#0">Demos </a>
+                <ul class="submenu">
+                  <li><a href="inicio.html">Home Stock</a></li>
+                  <li><a href="inicio.html">Home Stock V1<span class="style1">Light</span></a></li>
+                  <li><a href="index1-dark.html">Home Stock V2<span class="style2">Dark</span> </a></li>
+                  <li><a href="index-3.html">Home Crypto</a></li>
+                  <li><a href="index-2-light.html">Home Crypto V1<span class="style1">Light</span></a></li>
+                  <li><a href="index-2-dark.html">Home Crypto V2<span class="style2">Dark</span> </a></li>
+                  <li><a href="index-4.html">Home Forex</a></li>
+                  <li><a href="index-3-light.html">Home Forex V1<span class="style1">Light</span></a></li>
+                  <li><a href="index-3-dark.html">Home Forex V2<span class="style2">Dark</span> </a></li>
+                </ul>
               </li>
               <li>
-                <a href="servicos.html">Serviços</a>
-                
+                <a href="#0">Services</a>
+                <ul class="submenu">
+                  <li><a href="servicos.html">Services</a></li>
+                  <li><a href="service-details.html">Services Details</a></li>
+                </ul>
               </li>
               <li>
-                <a href="sobre.html">Sobre</a>
-               
+                <a href="#0">About</a>
+                <ul class="submenu">
+                  <li><a href="sobre.html">About Us</a></li>
+                  <li><a href="preco.html">Price</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="team-2.html">Team 2</a></li>
+                  <li><a href="team-details.html">Team Details</a></li>
+                </ul>
               </li>
 
               <li>
-                <a href="preco.html">Preço</a>
-              
+                <a href="#0">Pages</a>
+                <ul class="submenu">
+                  <li><a href="blogs.html">Blogs</a></li>
+                  <li><a href="blog-sidebar.html">Blog - Side Bar</a></li>
+                  <li><a href="blog-details.html">Blog Details</a></li>
+
+                  <li><a href="registro.html">Sign Up</a></li>
+                  <li><a href="signup-2.html">Sign Up 2</a></li>
+                  <li><a href="login.html">Sign In</a></li>
+                  <li><a href="login.html">Sign In 2</a></li>
+                  <li><a href="forgot-pass.html">Reset Password</a></li>
+                  <li><a href="esqueceu.html">Reset Password 2</a></li>
+                  <li><a href="404.html">404 Error</a></li>
+                </ul>
 
               </li>
               <li>
-                <a href="contato.html">Contato</a>
+                <a href="contato.html">Contact Us</a>
               </li>
             </ul>
 
@@ -104,12 +132,12 @@
             <div class="menu-area">
               <div class="header-btn">
                 <a href="registro.html" class="trk-btn trk-btn--border trk-btn--primary">
-                  <span>Inscreva-se</span>
+                  <span>Join Now</span>
                 </a>
               </div>
 
               <!-- toggle icons -->
-              <div class="header-bar d-lg-none header-bar--style1">
+              <div class="header-bar d-lg-none home1">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -117,33 +145,10 @@
             </div>
           </div>
         </div>
-      </div>  
+      </div>
     </div>
   </header>
   <!-- ===============>> Header section end here <<================= -->
-
-
-
-  <!-- ================> Page header start here <================== -->
-  <section class="page-header bg--cover" style="background-image:url(assets/images/header/1.png)">
-    <div class="container">
-      <div class="page-header__content" data-aos="fade-right" data-aos-duration="1000">
-        <h2>Login</h2>
-        <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
-          <ol class="breadcrumb mb-0">
-            <li class="breadcrumb-item "><a href="inicio.html">Inicio</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Login</li>
-          </ol>
-        </nav>
-      </div>
-      <div class="page-header__shape">
-        <span class="page-header__shape-item page-header__shape-item--1"><img src="assets/images/header/2.png"
-            alt="shape-icon"></span>
-      </div>
-    </div>
-  </section>
-  <!-- ================> Page header end here <================== -->
-
 
 
 
@@ -152,222 +157,101 @@
   <section class="account padding-top padding-bottom sec-bg-color2">
     <div class="container">
       <div class="account__wrapper" data-aos="fade-up" data-aos-duration="800">
-        <div class="row g-4">
-          <div class="col-lg-12">
-            <div class="account__content account__content--style1">
-
-              <!-- account tittle -->
-              <div class="account__header">
-                <h2>Bem vindo novamente!</h2>
-                <p>Pronto para fazer login? Basta digitar seu nome de usuário e senha abaixo e você estará de volta à ação!</p>
+        <div class="account__inner">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="account__thumb">
+                <img src="assets/images/account/1.png" alt="account-image" class="dark">
               </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="account__content account__content--style2">
 
-              <!-- account social -->
-              <div class="account__social">
-                <a href="#" class="account__social-btn"><span><img src="assets/images/others/google.svg"
-                      alt="google icon"></span>
-                  Entre com o Google!
-                </a>
-              </div>
-
-              <!-- account divider -->
-              <div class="account__divider account__divider--style1">
-                <span>ou</span>
-              </div>
-
-              <!-- account form -->
-              <form action="#" class="account__form needs-validation" novalidate>
-                <div class="row g-4">
-                  <div class="col-12">
-                    <div>
-                      <label for="account-email" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="account-email" placeholder="Seu email"
-                        required>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-pass">
-                      <label for="account-pass" class="form-label">Senha</label>
-                      <input type="password" class="form-control showhide-pass" id="account-pass" placeholder="Sua senha"
-                        required>
-
-                      <button type="button" id="btnToggle" class="form-pass__toggle"><i id="eyeIcon"
-                          class="fa fa-eye"></i></button>
-                    </div>
-                  </div>
+                <!-- account tittle -->
+                <div class="account__header">
+                  <h2>Login</h2>
+                  <p class="mb-0">Pronto para fazer login? Basta digitar seu nome de usuário e senha!</p>
                 </div>
 
-                <div class="account__check">
-
-                  <div class="account__check-remember">
-                    <input type="checkbox" class="form-check-input" value="" id="terms-check">
-                    <label for="terms-check" class="form-check-label">
-                      Lembre-se
-                    </label>
-                  </div>
-                  <div class="account__check-forgot">
-                    <a href="forgot-pass.html">Esqueceu a senha?</a>
-                  </div>
+                <!-- account social -->
+                <div class="account__social">
+                  <ul class="social">
+                    <li class="social__item">
+                      <a href="#" class="social__link social__link--style1"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="social__item">
+                      <a href="#" class="social__link social__link--style1 "><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="social__item">
+                      <a href="#" class="social__link social__link--style1 "><i
+                          class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="social__item">
+                      <a href="#" class="social__link social__link--style1"><i
+                          class="fab fa-youtube"></i></a>
+                    </li>
+                  </ul>
                 </div>
 
-                <button type="submit" class="trk-btn trk-btn--border trk-btn--primary d-block mt-4">Logar</button>
-              </form>
+                <!-- account divider -->
+                <div class="account__divider account__divider--style2">
+                  <span>Ou use email e senha para acessar.</span>
+                </div>
+
+                <!-- account form -->
+                <form action="#" class="account__form needs-validation" novalidate>
+                  <div class="row g-4">
+                    <div class="col-12">
+                      <div>
+                        <label for="account-email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="account-email" placeholder="Seu email"
+                          required>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-pass">
+                        <label for="account-pass" class="form-label">Senha</label>
+                        <input type="password" class="form-control showhide-pass" id="account-pass"
+                          placeholder="Senha" required>
+
+                        <button type="button" id="btnToggle" class="form-pass__toggle"><i id="eyeIcon"
+                            class="fa fa-eye"></i></button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="account__check">
+
+                    <div class="account__check-remember">
+                      <input type="checkbox" class="form-check-input" value="" id="terms-check">
+                      <label for="terms-check" class="form-check-label">
+                        Lembre-se
+                      </label>
+                    </div>
+                    <div class="account__check-forgot">
+                      <a href="esqueceu.html">Esqueceu a senha?</a>
+                    </div>
+                  </div>
+
+                  <button type="submit" class="trk-btn trk-btn--border trk-btn--primary d-block mt-4">Login</button>
+                </form>
 
 
-              <div class="account__switch">
-                <p>Não tem conta? <a href="registro.html">Registre-se</a></p>
+                <div class="account__switch">
+                  <p>Não tem conta? <a href="registro.html">Registre-se</a></p>
+                </div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
-    </div>
-    <div class="account__shape">
-      <span class="account__shape-item account__shape-item--1"><img src="assets/images/contact/4.png"
-          alt="shape-icon"></span>
     </div>
   </section>
   <!-- ===============>> account end here <<================= -->
 
 
 
-
-
-  <!-- ===============>> footer start here <<================= -->
-  <footer class="footer brand-1">
-    <div class="container">
-      <div class="footer__wrapper">
-        <div class="footer__top footer__top--style1">
-          <div class="row gy-5 gx-4">
-            <div class="col-md-6">
-              <div class="footer__about">
-                <a href="inicio.html" class="footer__about-logo"><img src="assets/images/logo/logo-dark.png"
-                    alt="Logo"></a>
-                <p class="footer__about-moto ">Bem-vindo ao CryptoInsight AI, sua mais nova ferramenta para análises avançadas no mercado de criptomoedas. Utilizando uma combinação única de análises técnicas e de sentimentos, oferecemos insights detalhados e acionáveis para traders e investidores de todos os níveis.</p>
-                <div class="footer__app">
-                  <div class="footer__app-item footer__app-item--apple">
-                    <div class="footer__app-inner">
-                      <div class="footer__app-thumb">
-                        <a href="https://www.apple.com/app-store/" target="_blank" class="stretched-link">
-                          <img src="assets/images/footer/apple.png" alt="apple-icon">
-                        </a>
-                      </div>
-                      <div class="footer__app-content">
-                        <span>Download on the</span>
-                        <p class="mb-0">App Store</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="footer__app-item footer__app-item--playstore">
-                    <div class="footer__app-inner">
-                      <div class="footer__app-thumb">
-                        <a href="https://play.google.com/store" target="_blank" class="stretched-link">
-                          <img src="assets/images/footer/play.png" alt="playstore-icon">
-                        </a>
-                      </div>
-                      <div class="footer__app-content">
-                        <span>GET IT ON</span>
-                        <p class="mb-0">Google Play</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2 col-sm-4 col-6">
-              <div class="footer__links">
-                <div class="footer__links-tittle">
-                  <h6>Links rapidos</h6>
-                </div>
-                <div class="footer__links-content">
-                  <ul class="footer__linklist">
-                    <li class="footer__linklist-item"> <a href="sobre.html">Sobre nós</a>
-                    </li>
-                    <li class="footer__linklist-item"> <a href="team.html">Nosso time</a>
-                    </li>
-                    <li class="footer__linklist-item"> <a href="service.html">Serviços</a> </li>
-                    <li class="footer__linklist-item"> <a href="#">Novidades</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-            </div>
-            <div class="col-md-2 col-sm-4 col-6">
-              <div class="footer__links">
-                <div class="footer__links-tittle">
-                  <h6>Suporte</h6>
-                </div>
-                <div class="footer__links-content">
-                  <ul class="footer__linklist">
-                    <li class="footer__linklist-item"> <a href="#">Termos e condições</a>
-                    </li>
-                    <li class="footer__linklist-item"> <a href="#">Politica de Privacidade</a>
-                    </li>
-                    <li class="footer__linklist-item"> <a href="#">FAQs</a></li>
-                    <li class="footer__linklist-item"> <a href="#">Central de Suporte</a> </li>
-                  </ul>
-                </div>
-              </div>
-
-            </div>
-            <div class="col-md-2 col-sm-4">
-              <div class="footer__links">
-                <div class="footer__links-tittle">
-                  <h6>Empresa</h6>
-                </div>
-                <div class="footer__links-content">
-                  <ul class="footer__linklist">
-                    <li class="footer__linklist-item"> <a href="#">Carreira</a>
-                    </li>
-                    <li class="footer__linklist-item"> <a href="#">Atualizações</a>
-                    </li>
-                    <li class="footer__linklist-item"> <a href="#">Trabalho</a> </li>
-                 
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="footer__bottom">
-          <div class="footer__end">
-            <div class="footer__end-copyright">
-              <p class=" mb-0">© 2023 All Rights Reserved By <a href="#inicio.html"
-                  target="_blank">Heinrye</a> </p>
-            </div>
-            <div>
-              <ul class="social">
-                <li class="social__item">
-                  <a href="#" class="social__link social__link--style22"><i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link social__link--style22 "><i class="fab fa-instagram"></i></a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link social__link--style22"><i class="fa-brands fa-linkedin-in"></i></a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link social__link--style22"><i class="fab fa-youtube"></i></a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link social__link--style22 "><i class="fab fa-twitter"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer__shape">
-      <span class="footer__shape-item footer__shape-item--1"><img src="assets/images/footer/1.png"
-          alt="shape icon"></span>
-      <span class="footer__shape-item footer__shape-item--2"> <span></span> </span>
-    </div>
-  </footer>
-  <!-- ===============>> footer end here <<================= -->
 
 
 
