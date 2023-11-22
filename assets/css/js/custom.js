@@ -24,7 +24,7 @@ moon.addEventListener('click', () => {
         moon.style.backgroundColor = 'white';
     } else {
         icon.src = 'assets/images/icon/moon.svg';
-        moon.style.backgroundColor = '#00D094';
+        moon.style.backgroundColor = '#00B4D8';
     }
 
     changeImage();
